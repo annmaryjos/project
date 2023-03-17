@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="projectjs.js"></script>
   <style>
 
 
@@ -107,7 +109,7 @@ header {
         <nav> 
             <ul id="navig"> 
              <li> <a href="project.html">Home </a></li> 
-             <li><a href="allblogs.html">All Blogs</a></li>
+             <li><a name="allblogs" id="all" href="allblogs.html" >All Blogs</a></li>
              <li><a href="random.html">Random Blog</a></li>
              <li><a href="writeblog.html">Write Blog</a></li>
               
@@ -122,9 +124,9 @@ header {
   <p>We can work together!!!</p>
   <form class="form-inline">
     <div class="input-group">
-      <input type="text" class="form-control" size="50" placeholder="Search here" required>
+      <input type="text"id="userId" class="form-control" size="50" placeholder="Search Using User Id" required>
       <div class="input-group-btn">
-       <center> <button type="button" class="btn btn-danger">Search</button></center>
+       <center> <button type="button" id="search" class="btn btn-danger">Search</button></center>
       </div>
     </div>
   </form>
