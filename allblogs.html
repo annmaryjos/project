@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="allblogs.js">
+    </script>
+    <style>
+      
+       body {
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            z-index: 1;
+           
+            content-visibility:visible;
+        }
+        .main{
+           
+            position:relative;
+            text-align: center;
+            z-index: 1;
+            
+        }
+        .topnav{
+            
+            overflow: hidden;
+            background-color:black;
+            display:flex;
+            
+            align-items: center;
+            position: sticky;
+        }
+        .topnav a{
+            float:left;
+            color:white;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin-top: 0;
+           margin-bottom: 0;
+           
+        }
+        .topnav a:hover{
+            background-color: rgb(21, 21, 20);
+            color:rgb(85, 6, 6);
+            cursor: grab;
+
+            border-radius: 2px;
+        }
+        
+        .heading{
+            font-size: 70px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight:bold;
+            
+            color:rgb(19, 14, 14);
+            position:top;
+            margin-top:1px;
+        }
+        .content{
+           
+            position:center;
+            color:brown;
+            background-color: lightgray;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: lighter;
+            cursor:grab;
+        
+        }
+        footer {
+        text-align: center;
+        padding: 3px;
+        background-color: black;
+        color: white;
+        min-height: 15px;
+     }
+        #footer
+        { 
+        width:75%;
+        margin-left: auto ; 
+
+        margin-right: auto ;
+    }
+      
+        
+      
+    </style>
+   </head>
+    <body>
+        <div class="main">
+          <div class="topnav">
+            <a href="project.html">Home </a>
+            <a href="allblogs.html" class="active">All Blogs</a>
+            <a href="random.html">Random Blog</a>
+            <a href="writeblog.html">Write Blog</a>
+          </div>
+          <div class="blog">
+               <h1 class="heading"><u>Deloitte Blog List</u></h1>
+               <div class="content">
+
+               </div>
+               <div class="realcontent">
+                
+                </div>
+          </div>
+        </div>
+        <footer> 
+            <div id="footer">
+            <p>
+            © 2023. See Terms of Use for more information.<br>
+            Deloitte refers to one or more of Deloitte ToucheTohmatsu Limited, a
+             UK private company limited by guarantee("DTTL"), its network of member firms, and their related entities. 
+            about our global network of member firms.
+        </p>
+       </div></footer>
+       
+        
+     </body>
+    
+</html>

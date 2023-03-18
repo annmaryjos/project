@@ -2,6 +2,7 @@ console.log('jQuery AJAX Demos');
 
 $(document).ready(function () {
     $("#search").one("click",function () {
+       // $("#search").click(function(){
         
         let uid = $("#userId").val();
         

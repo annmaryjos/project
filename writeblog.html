@@ -8,11 +8,36 @@
         font-size: 30px;
         color: darkblue;
     }
-body {font-family: Arial, Helvetica, sans-serif;
+body {font-family:'Times New Roman', Times, serif;
     background-image: url("https://wallpaperset.com/w/full/a/4/6/49091.jpg");
      background-position: center;
      background-repeat: no-repeat;
-     background-size:auto;}
+     background-size:auto;
+    }
+    .topnav{
+            overflow: hidden;
+            background-color:black;
+            display:flex;
+            align-items: center;
+            position: sticky;
+           
+        }
+        .topnav a{
+            float:left;
+            color:white;
+            text-align: center;
+            padding:14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+           
+        }
+        .topnav a:hover{
+            background-color: rgb(21, 21, 20);
+            color:rgb(79, 3, 3);
+            cursor: grab;
+            border-radius: 2px;
+          }
+
 
  * {
     box-sizing: border-box;
@@ -62,6 +87,13 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
+  <div class="main">
+    <div class="topnav">
+      <a href= "project.html">Home </a>
+      <a href="allblogs.html">All Blogs</a>
+      <a href="random.html">Random Blog</a>
+      <a href="writeblog.html">Write Blog</a>
+    </div>
 <center>
 <h2>Write Your Blog Here</h2></center>
 
